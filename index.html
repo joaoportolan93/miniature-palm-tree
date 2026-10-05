@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TMD Studio | Consultoria de TI e Modernização Estratégica para Escritórios</title>
+  <meta name="description"
+    content="Consultoria de TI e modernização estratégica exclusiva para escritórios de advocacia, contabilidade e consultoria. Automação de processos, blindagem de dados LGPD e zero paradas.">
+
+  <!-- Open Graph / Meta Tags -->
+  <meta property="og:title" content="TMD Studio | Consultoria de TI Estratégica para Escritórios">
+  <meta property="og:description"
+    content="Infraestrutura corporativa, automação e segurança sem jargões técnicos para escritórios de alto padrão.">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23DCA542'%3E%3Cpath d='M12 2L1 21h22L12 2zm0 3.5L19.5 19h-15L12 5.5z'/%3E%3C/svg%3E">
+
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap"
+    rel="stylesheet">
+
+  <!-- Streamline / Remix Icons (Official Partner Library) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <!-- ==========================================================================
+       SITE HEADER & NAVIGATION
+       ========================================================================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container navbar">
+      <!-- Brand Logo -->
+      <a href="#inicio" class="brand-logo" aria-label="TMD Studio – Tecnologia para Escritórios">
+        <div class="logo-icon-box">
+          <i class="ri-shield-keyhole-line"></i>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">TMD Studio</span>
+          <span class="brand-sub">Tecnologia para Escritórios</span>
+        </div>
+      </a>
+
+      <!-- Right side: CTA + Hamburger -->
+      <div class="header-cta-group">
+        <a href="tel:+551140038921" class="phone-badge-btn" aria-label="Ligue para nossa equipe">
+          <i class="ri-phone-fill"></i>
+          <span>+55 (11) 4003-8921</span>
+        </a>
+        <button class="btn-white navbar-cta-btn" data-open-modal>
+          Agendar Reunião
+        </button>
+        <button class="hamburger-btn" id="mobileMenuToggle" aria-label="Abrir menu de navegação" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Off-canvas Drawer Menu -->
+    <nav class="nav-drawer" id="navMenu" aria-hidden="true">
+      <div class="nav-drawer-inner">
+        <div class="nav-drawer-header">
+          <span class="nav-drawer-label">Navegação</span>
+          <button class="nav-drawer-close" id="navDrawerClose" aria-label="Fechar menu">
+            <i class="ri-close-line"></i>
+          </button>
+        </div>
+        <ul class="nav-menu-list">
+          <li><a href="#inicio" class="nav-link active"><i class="ri-home-5-line"></i>Início</a></li>
+          <li><a href="#problemas" class="nav-link"><i class="ri-stethoscope-line"></i>Diagnóstico de Dores</a></li>
+          <li><a href="#sobre" class="nav-link"><i class="ri-team-line"></i>Sobre Nós</a></li>
+          <li><a href="#solucoes" class="nav-link"><i class="ri-puzzle-line"></i>Soluções</a></li>
+          <li><a href="#beneficios" class="nav-link"><i class="ri-bar-chart-grouped-line"></i>Benefícios</a></li>
+          <li><a href="#metodo" class="nav-link"><i class="ri-route-line"></i>Metodologia</a></li>
+          <li><a href="#depoimentos" class="nav-link"><i class="ri-chat-quote-line"></i>Cases</a></li>
+          <li><a href="#faq" class="nav-link"><i class="ri-question-answer-line"></i>FAQ</a></li>
+        </ul>
+        <div class="nav-drawer-cta">
+          <button class="btn-gold nav-drawer-cta-btn" data-open-modal>
+            <i class="ri-calendar-check-line"></i>
+            Agendar Diagnóstico Gratuito
+          </button>
+          <a href="tel:+551140038921" class="phone-badge-btn nav-drawer-phone">
+            <i class="ri-phone-fill"></i>
+            <span>+55 (11) 4003-8921</span>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <!-- Drawer Overlay -->
+    <div class="nav-overlay" id="navOverlay"></div>
+  </header>
+
+  <!-- ==========================================================================
+       1. HERO SECTION (Fiel ao Screenshot 1 do Template Aura)
+       ========================================================================== -->
+  <section class="hero-section" id="inicio">
+    <div class="container hero-grid">
+      <!-- Left Hero Column -->
+      <div class="hero-content-col">
+        <div class="hero-badge-tag">
+          <span class="badge-dot"></span>
+          <span>Consultoria Estratégica para Escritórios</span>
+        </div>
+
+        <h1 class="hero-title">
+          Eficiência e segurança em <span class="text-gold">operações críticas</span>.
+        </h1>
+
+        <p class="hero-desc">
+          Modernização tecnológica exclusiva para escritórios de advocacia, contabilidade e consultoria empresarial.
+          Eliminamos tarefas manuais repetitivas, integramos sistemas isolados e blindamos dados sob sigilo da LGPD.
+        </p>
+
+        <div class="hero-actions">
+          <button class="btn-white" data-open-modal id="heroPrimaryCta">
+            <i class="ri-calendar-check-line"></i>
+            Agendar Diagnóstico Gratuito
+          </button>
+          <a href="#solucoes" class="btn-dark-outline" id="heroSecondaryCta">
+            Conhecer Soluções
+            <i class="ri-arrow-down-line"></i>
+          </a>
+        </div>
+
+        <!-- Metrics / Stats (Fiel ao Template Aura) -->
+        <div class="hero-stats-row">
+          <div class="hero-stat-item">
+            <span class="stat-number">+120</span>
+            <span class="stat-label">Escritórios Otimizados</span>
+          </div>
+          <div class="hero-stat-item">
+            <span class="stat-number">99.9%</span>
+            <span class="stat-label">Uptime & Estabilidade</span>
+          </div>
+          <div class="hero-stat-item">
+            <span class="stat-number">2h</span>
+            <span class="stat-label">Tempo Médio de Resposta</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Hero Column: Form Card (Fiel ao Screenshot 1) -->
+      <div class="hero-form-col">
+        <div class="hero-form-card" id="formCard">
+          <div class="form-header">
+            <h3 class="form-title">Descreva a sua operação</h3>
+            <p class="form-subtitle">Retornaremos com uma proposta de diagnóstico estratégico personalizado.</p>
+          </div>
+
+          <form class="lead-form" id="heroLeadForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="leadName">Nome do Sócio / Diretor</label>
+                <input type="text" id="leadName" class="form-control" placeholder="Dr(a). Roberto Silva" required>
+              </div>
+              <div class="form-group">
+                <label for="leadPhone">Telefone / WhatsApp</label>
+                <input type="tel" id="leadPhone" class="form-control" placeholder="(11) 98765-4321" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="leadOfficeType">Segmento do Escritório</label>
+              <select id="leadOfficeType" class="form-control" required>
+                <option value="" disabled selected>Selecione o segmento</option>
+                <option value="advocacia">Escritório de Advocacia / Jurídico</option>
+                <option value="contabilidade">Escritório Contábil / Fiscal</option>
+                <option value="consultoria">Consultoria Empresarial / Gestão</option>
+                <option value="auditoria">Auditoria / Serviços Financeiros</option>
+                <option value="outro">Outro segmento corporativo</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="leadIssue">Principal Desafio Atual</label>
+              <textarea id="leadIssue" class="form-control" rows="3"
+                placeholder="Ex: Sistemas lentos, equipe presa em planilhas manuais, falta de backup em nuvem..."
+                required></textarea>
+            </div>
+
+            <div class="form-check">
+              <input type="checkbox" id="leadConsent" required checked>
+              <label for="leadConsent">Autorizo o contato de um consultor sênior para avaliação técnica
+                confidencial.</label>
+            </div>
+
+            <button type="submit" class="btn-submit-hero" id="submitHeroBtn">
+              <span>Solicitar Diagnóstico Estratégico</span>
+              <i class="ri-arrow-right-line"></i>
+            </button>
+
+            <div class="form-security-note">
+              <i class="ri-lock-2-line"></i>
+              <span>Garantia de sigilo profissional e conformidade estrita com a LGPD.</span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       2. SEÇÃO DE PROBLEMA: AGITAÇÃO DA DOR (Briefing Item 2)
+       ========================================================================== -->
+  <section class="problem-section" id="problemas">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Diagnóstico de Gargalos</span>
+        <h2 class="section-title">O seu escritório está perdendo receita com processos lentos e tecnologia amadora?</h2>
+        <div class="gold-divider center"></div>
+        <p class="section-subtitle">
+          À medida que a carteira de clientes cresce, soluções improvisadas de informática tornam-se armadilhas
+          financeiras e de segurança. Identifique se o seu escritório enfrenta estes sintomas:
+        </p>
+      </div>
+
+      <div class="problem-grid">
+        <!-- Card 1 -->
+        <div class="problem-card">
+          <div class="problem-icon-wrapper">
+            <i class="ri-timer-flash-line"></i>
+          </div>
+          <div class="problem-content">
+            <span class="problem-badge">Gargalo Operacional</span>
+            <h3 class="problem-title">Ineficiência Operacional & Retrabalho</h3>
+            <p class="problem-desc">
+              Colaboradores perdem horas semanais digitando dados em duplicidade, alimentando planilhas desatualizadas e
+              buscando arquivos dispersos em máquinas locais.
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="problem-card">
+          <div class="problem-icon-wrapper">
+            <i class="ri-shield-cross-line"></i>
+          </div>
+          <div class="problem-content">
+            <span class="problem-badge">Risco Jurídico Iminente</span>
+            <h3 class="problem-title">Vulnerabilidade de Dados & Risco LGPD</h3>
+            <p class="problem-desc">
+              Dados confidenciais de clientes sem criptografia corporativa, backups manuais que nunca foram testados e
+              vulnerabilidade aberta a ataques de ransomware que paralisam a banca.
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="problem-card">
+          <div class="problem-icon-wrapper">
+            <i class="ri-node-tree"></i>
+          </div>
+          <div class="problem-content">
+            <span class="problem-badge">Falta de Integração</span>
+            <h3 class="problem-title">Sistemas Fragmentados e em Silos</h3>
+            <p class="problem-desc">
+              O sistema financeiro não conversa com o software processual ou ERP contábil. A diretoria toma decisões no
+              escuro por falta de relatórios unificados em tempo real.
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="problem-card">
+          <div class="problem-icon-wrapper">
+            <i class="ri-server-line"></i>
+          </div>
+          <div class="problem-content">
+            <span class="problem-badge">Barreira de Escala</span>
+            <h3 class="problem-title">Estagnação por TI Defasada</h3>
+            <p class="problem-desc">
+              Novos clientes chegam, mas os servidores travam, os computadores ficam lentos e a equipe atinge o limite
+              do estresse, impedindo a expansão dos sócios.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Problem Bottom Callout -->
+      <div class="problem-callout">
+        <div class="problem-callout-text">
+          <h4>Você não precisa de mais 'suporte de informática'.</h4>
+          <p>Você precisa de uma estratégia de tecnologia focada em rentabilidade, governança e tranquilidade.</p>
+        </div>
+        <button class="btn-gold" data-open-modal>
+          Agendar Auditoria Operacional
+          <i class="ri-arrow-right-line"></i>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       3. AUTORIDADE & SOBRE NÓS (Fiel ao Screenshot 2 do Template Aura)
+       ========================================================================== -->
+  <section class="authority-section" id="sobre">
+    <div class="container authority-grid">
+      <!-- Left Column: Fine-art Portrait with floating quote badge -->
+      <div class="authority-image-col">
+        <div class="authority-image-wrapper">
+          <img src="assets/images/consultant.jpg" alt="Diretor de Estratégia Tecnológica da Vértice" loading="lazy">
+
+          <div class="authority-quote-overlay">
+            <p>"Não vendemos 'horas técnicas de informática'. Entregamos infraestrutura estratégica que permite aos
+              sócios focarem exclusivamente no crescimento dos seus negócios."</p>
+            <div class="quote-author">ENG. HENRIQUE VALENTE | DIRETOR DE OPERAÇÕES & GOVERNANÇA</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column: Corporate Copy & Checklist with Gold Divider -->
+      <div class="authority-content-col">
+        <span class="section-tag">Nossa Abordagem Executiva</span>
+        <h2 class="section-title">Experiência que dá vantagem competitiva ao seu escritório.</h2>
+        <div class="gold-divider"></div>
+
+        <p class="authority-lead">
+          Tecnologia não é um departamento de despesas; é o alicerce operacional que determina a agilidade, a reputação
+          e a margem de lucro de um escritório profissional.
+        </p>
+
+        <p class="authority-body">
+          Nossa consultoria foi estruturada sob medida para atender as exigências singulares de bancas de advocacia,
+          empresas contábeis e consultorias corporativas. Compreendemos a gravidade de prazos fatais, a
+          confidencialidade absoluta exigida pelos seus clientes e a necessidade de sistemas que simplesmente não caem.
+        </p>
+
+        <div class="authority-checklist">
+          <div class="checklist-item">
+            <div class="check-icon-circle"><i class="ri-check-line"></i></div>
+            <div class="check-text">Linguagem de negócios direta: métricas de ROI, produtividade e estabilidade, sem
+              jargões indecifráveis.</div>
+          </div>
+          <div class="checklist-item">
+            <div class="check-icon-circle"><i class="ri-check-line"></i></div>
+            <div class="check-text">Blindagem rigorosa e adequação plena às normas da Lei Geral de Proteção de Dados
+              (LGPD).</div>
+          </div>
+          <div class="checklist-item">
+            <div class="check-icon-circle"><i class="ri-check-line"></i></div>
+            <div class="check-text">Implementação planejada e silenciosa: zero interrupções na rotina diária dos sócios
+              e da equipe.</div>
+          </div>
+          <div class="checklist-item">
+            <div class="check-icon-circle"><i class="ri-check-line"></i></div>
+            <div class="check-text">Transparência absoluta em orçamentos, etapas de entrega e relatórios mensais de
+              conformidade.</div>
+          </div>
+        </div>
+
+        <button class="btn-gold" data-open-modal>
+          Conhecer Nossa Estrutura
+          <i class="ri-arrow-right-line"></i>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       4. A SOLUÇÃO: OS 4 PILARES ESTRATÉGICOS (Fiel ao Screenshot 3)
+       ========================================================================== -->
+  <section class="solutions-section" id="solucoes">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Nossos Pilares de Atuação</span>
+        <h2 class="section-title">Em que podemos ajudar seu escritório?</h2>
+        <div class="gold-divider center"></div>
+        <p class="section-subtitle">
+          Substituímos soluções improvisadas por uma arquitetura corporativa moderna, segura e altamente produtiva.
+        </p>
+      </div>
+
+      <div class="solutions-grid">
+        <!-- Pilar 1 -->
+        <div class="solution-card">
+          <div class="solution-icon-box">
+            <i class="ri-scan-2-line"></i>
+          </div>
+          <div class="solution-card-watermark">
+            <i class="ri-scan-2-line"></i>
+          </div>
+          <div class="solution-card-content">
+            <span class="solution-tag">Fase Inicial</span>
+            <h3 class="solution-title">Diagnóstico & Auditoria</h3>
+            <p class="solution-desc">
+              Mapeamento completo do fluxo de trabalho, inventário de ativos e identificação de gargalos e
+              vulnerabilidades que custam tempo e dinheiro ao escritório.
+            </p>
+            <a href="#metodo" class="solution-link">
+              <span>Etapas do Diagnóstico</span>
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Pilar 2 -->
+        <div class="solution-card">
+          <div class="solution-icon-box">
+            <i class="ri-shuffle-line"></i>
+          </div>
+          <div class="solution-card-watermark">
+            <i class="ri-shuffle-line"></i>
+          </div>
+          <div class="solution-card-content">
+            <span class="solution-tag">Produtividade</span>
+            <h3 class="solution-title">Automação de Processos</h3>
+            <p class="solution-desc">
+              Integração inteligente entre ERPs, sistemas de gestão processual/contábil e rotinas repetitivas.
+              Eliminamos a digitação manual e os erros humanos na raiz.
+            </p>
+            <a href="#metodo" class="solution-link">
+              <span>Etapas de Automação</span>
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Pilar 3 -->
+        <div class="solution-card">
+          <div class="solution-icon-box">
+            <i class="ri-cloud-line"></i>
+          </div>
+          <div class="solution-card-watermark">
+            <i class="ri-cloud-line"></i>
+          </div>
+          <div class="solution-card-content">
+            <span class="solution-tag">Infraestrutura</span>
+            <h3 class="solution-title">Arquitetura em Nuvem</h3>
+            <p class="solution-desc">
+              Modernização de servidores, migração segura para a nuvem corporativa (AWS, Azure e Google Cloud), acessos
+              remotos ultravelozes e VPNs blindadas.
+            </p>
+            <a href="#metodo" class="solution-link">
+              <span>Etapas de Migração</span>
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Pilar 4 -->
+        <div class="solution-card">
+          <div class="solution-icon-box">
+            <i class="ri-shield-keyhole-line"></i>
+          </div>
+          <div class="solution-card-watermark">
+            <i class="ri-shield-keyhole-line"></i>
+          </div>
+          <div class="solution-card-content">
+            <span class="solution-tag">Governança & LGPD</span>
+            <h3 class="solution-title">Segurança da Informação</h3>
+            <p class="solution-desc">
+              Blindagem de dados sensíveis de clientes, gestão de permissões, políticas de senhas fortes, proteção
+              contra sequestro de dados e planos de recuperação de desastres.
+            </p>
+            <a href="#metodo" class="solution-link">
+              <span>Protocolos de Blindagem</span>
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Extra Pilar 5: Suporte Proativo -->
+        <div class="solution-card">
+          <div class="solution-icon-box">
+            <i class="ri-macbook-line"></i>
+          </div>
+          <div class="solution-card-watermark">
+            <i class="ri-macbook-line"></i>
+          </div>
+          <div class="solution-card-content">
+            <span class="solution-tag">Operação Contínua</span>
+            <h3 class="solution-title">Monitoramento Proativo 24/7</h3>
+            <p class="solution-desc">
+              Detecção antecipada de falhas em links de internet, servidores e estações de trabalho antes mesmo que seus
+              advogados ou contadores percebam qualquer lentidão.
+            </p>
+            <a href="#metodo" class="solution-link">
+              <span>Níveis de SLA</span>
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Extra Pilar 6: Consultoria Estratégica para Sócios -->
+        <div class="solution-card">
+          <div class="solution-icon-box">
+            <i class="ri-funds-box-line"></i>
+          </div>
+          <div class="solution-card-watermark">
+            <i class="ri-funds-box-line"></i>
+          </div>
+          <div class="solution-card-content">
+            <span class="solution-tag">Diretoria Executiva</span>
+            <h3 class="solution-title">Gestão e Governança de TI</h3>
+            <p class="solution-desc">
+              Reuniões periódicas com os sócios para alinhamento estratégico, redução de custos com licenças
+              desnecessárias e planejamento de crescimento da banca.
+            </p>
+            <a href="#metodo" class="solution-link">
+              <span>Apresentação Executiva</span>
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       5. BENEFÍCIOS TANGÍVEIS (Briefing Item 4)
+       ========================================================================== -->
+  <section class="benefits-section" id="beneficios">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Impacto nos Negócios</span>
+        <h2 class="section-title">Resultados tangíveis e mensuráveis</h2>
+        <div class="gold-divider center"></div>
+        <p class="section-subtitle">
+          Veja o que muda na prática para os sócios, colaboradores e clientes do seu escritório.
+        </p>
+      </div>
+
+      <div class="benefits-grid">
+        <div class="benefit-card">
+          <div class="benefit-metric">-40<span class="metric-accent">%</span></div>
+          <h3 class="benefit-title">Redução de Custos Operacionais</h3>
+          <p class="benefit-desc">
+            Eliminação de retrabalho manual, licenças duplicadas e despesas com manutenções emergenciais caras e
+            ineficientes.
+          </p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-metric">+65<span class="metric-accent">%</span></div>
+          <h3 class="benefit-title">Aumento na Produtividade</h3>
+          <p class="benefit-desc">
+            Sistemas rápidos e fluxos automáticos que devolvem de 8 a 15 horas semanais para cada membro da equipe focar
+            no core business.
+          </p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-metric">100<span class="metric-accent">%</span></div>
+          <h3 class="benefit-title">Blindagem & Conformidade LGPD</h3>
+          <p class="benefit-desc">
+            Segurança jurídica inabalável para dados sigilosos e relatórios de conformidade para apresentar a clientes
+            exigentes.
+          </p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-metric">Zero</div>
+          <h3 class="benefit-title">Quedas de Sistema Inesperadas</h3>
+          <p class="benefit-desc">
+            Infraestrutura redundante com backups automáticos em nuvem que impedem a paralisação do escritório em datas
+            críticas.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       6. METODOLOGIA: COMO TRABALHAMOS (Briefing Item 5)
+       ========================================================================== -->
+  <section class="methodology-section" id="metodo">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Nosso Processo Executivo</span>
+        <h2 class="section-title">Do diagnóstico à modernização completa</h2>
+        <div class="gold-divider center"></div>
+        <p class="section-subtitle">
+          Um método testado em mais de 120 escritórios, planejado para gerar melhorias rápidas sem afetar a rotina
+          produtiva da equipe.
+        </p>
+      </div>
+
+      <div class="process-steps-grid">
+        <div class="step-card">
+          <div class="step-number-pill">01</div>
+          <h3 class="step-title">Diagnóstico & Raio-X</h3>
+          <p class="step-desc">
+            Entrevista com os sócios, auditoria técnica de redes, verificação de backups e mapeamento minucioso de cada
+            gargalo e vulnerabilidade.
+          </p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number-pill">02</div>
+          <h3 class="step-title">Plano Estratégico Sob Medida</h3>
+          <p class="step-desc">
+            Apresentação de um relatório executivo sem termos técnicos confusos, com cronograma exato, investimento
+            transparente e metas claras de ROI.
+          </p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number-pill">03</div>
+          <h3 class="step-title">Implementação Silenciosa</h3>
+          <p class="step-desc">
+            Nossa equipe atua em horários planejados. A modernização de servidores e integrações ocorre sem paralisar as
+            atividades dos seus profissionais.
+          </p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number-pill">04</div>
+          <h3 class="step-title">Governança & Suporte Contínuo</h3>
+          <p class="step-desc">
+            Monitoramento proativo 24/7, suporte VIP prioritário para a diretoria e reuniões mensais de evolução
+            estratégica.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       7. PROVA SOCIAL & DEPOIMENTOS (Briefing Item 6)
+       ========================================================================== -->
+  <section class="testimonials-section" id="depoimentos">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Resultados Reais</span>
+        <h2 class="section-title">O que dizem os sócios que modernizaram seus escritórios</h2>
+        <div class="gold-divider center"></div>
+        <p class="section-subtitle">
+          Bancas de advocacia e escritórios contábeis que transformaram a tecnologia em motor de expansão.
+        </p>
+      </div>
+
+      <div class="testimonials-grid">
+        <!-- Depoimento 1 -->
+        <div class="testimonial-card">
+          <div>
+            <div class="testimonial-stars">
+              <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                class="ri-star-fill"></i><i class="ri-star-fill"></i>
+            </div>
+            <p class="testimonial-quote">
+              "Nossos 38 advogados perdiam horas diárias com lentidão em arquivos compartilhados e vivíamos com receio
+              de vazamento de dados de processos estratégicos. A TMD Studio reestruturou toda a nossa nuvem em 20 dias,
+              com zero impacto no expediente. A segurança e a velocidade de hoje são incomparáveis."
+            </p>
+          </div>
+          <div class="testimonial-client">
+            <div class="client-avatar">MA</div>
+            <div class="client-info">
+              <h5>Dr. Marcelo Arantes</h5>
+              <span>Sócio-Fundador, Arantes & Associados Advocacia</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Depoimento 2 -->
+        <div class="testimonial-card">
+          <div>
+            <div class="testimonial-stars">
+              <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                class="ri-star-fill"></i><i class="ri-star-fill"></i>
+            </div>
+            <p class="testimonial-quote">
+              "A automação de processos eliminou mais de 70% da digitação manual de notas fiscais e relatórios contábeis
+              no fechamento do mês. O investimento se pagou nos primeiros 90 dias com o aumento da carteira de clientes
+              sem precisar inflar o quadro de funcionários."
+            </p>
+          </div>
+          <div class="testimonial-client">
+            <div class="client-avatar">BF</div>
+            <div class="client-info">
+              <h5>Dra. Beatriz Fontana</h5>
+              <span>Diretora Executiva, Fontana Consultoria Contábil</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Depoimento 3 -->
+        <div class="testimonial-card">
+          <div>
+            <div class="testimonial-stars">
+              <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                class="ri-star-fill"></i><i class="ri-star-fill"></i>
+            </div>
+            <p class="testimonial-quote">
+              "Postura corporativa impecável. Eles entendem de negócios e responsabilidade societária, não apenas de
+              cabos e máquinas. Hoje temos tranquilidade absoluta de que nosso ambiente está em conformidade com as
+              exigências mais duras da LGPD."
+            </p>
+          </div>
+          <div class="testimonial-client">
+            <div class="client-avatar">RS</div>
+            <div class="client-info">
+              <h5>Rodrigo Silveira</h5>
+              <span>Managing Partner, Silveira Gestão Empresarial</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       8. FAQ: PERGUNTAS FREQUENTES (Briefing Item 7)
+       ========================================================================== -->
+  <section class="faq-section" id="faq">
+    <div class="container container-narrow">
+      <div class="section-header">
+        <span class="section-tag">Perguntas Frequentes</span>
+        <h2 class="section-title">Esclarecimentos para Sócios e Diretores</h2>
+        <div class="gold-divider center"></div>
+        <p class="section-subtitle">
+          Tire suas dúvidas sobre prazos, custos, sigilo de informações e impacto operacional.
+        </p>
+      </div>
+
+      <div class="faq-accordion">
+        <!-- Item 1 -->
+        <div class="faq-item active">
+          <button class="faq-question">
+            <span>A consultoria vai interromper o trabalho diário da minha equipe durante a transição?</span>
+            <div class="faq-icon-chevron"><i class="ri-arrow-down-s-line"></i></div>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Não. Todo o processo de modernização e migração é planejado de forma silenciosa e executado em janelas que
+              não concorrem com os horários de pico do escritório (inclusive aos finais de semana e noites, se
+              necessário). Seus advogados e contadores continuam trabalhando normalmente, sem interrupção de prazos.
+            </p>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>É muito caro contratar uma consultoria estratégica de TI?</span>
+            <div class="faq-icon-chevron"><i class="ri-arrow-down-s-line"></i></div>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Nosso modelo é desenhado com foco em retorno financeiro (ROI). Identificamos licenças de software
+              duplicadas, servidores ineficientes e horas desperdiçadas em retrabalho que, com frequência, cobrem o
+              valor da consultoria logo nos primeiros meses. Além disso, o custo de prevenir um incidente de vazamento
+              de dados ou sequestro por ransomware é imensamente menor do que o prejuízo financeiro e reputacional de
+              uma crise.
+            </p>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Como fica garantido o sigilo das informações e processos confidenciais dos nossos clientes?</span>
+            <div class="faq-icon-chevron"><i class="ri-arrow-down-s-line"></i></div>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Trabalhamos sob rigoroso Acordo de Não Divulgação (NDA) com cláusulas penais e responsabilidade jurídica
+              expressa. Aplicamos criptografia militar ponta a ponta e seus dados não são manipulados manualmente pela
+              nossa equipe; criamos os canais automatizados e os controles de acesso para que apenas pessoas autorizadas
+              da sua própria equipe acessem os documentos.
+            </p>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Já temos um técnico ou suporte que cuida das máquinas. Por que precisamos da consultoria?</span>
+            <div class="faq-icon-chevron"><i class="ri-arrow-down-s-line"></i></div>
+          </button>
+          <div class="faq-answer">
+            <p>
+              O suporte tradicional atua de forma reativa: 'o computador travou, o suporte conserta'. Nossa consultoria
+              atua no nível executivo e preventivo: desenhamos a arquitetura de dados, integramos sistemas, garantimos a
+              conformidade com a LGPD e estruturamos a TI para suportar o crescimento da banca. Trabalhamos, inclusive,
+              orientando e potencializando a equipe de TI que você já possui.
+            </p>
+          </div>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Nosso escritório tem porte pequeno/médio (10 a 50 pessoas). Essa consultoria é adequada?</span>
+            <div class="faq-icon-chevron"><i class="ri-arrow-down-s-line"></i></div>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Sim, é exatamente o perfil que mais se beneficia! Escritórios desse porte costumam crescer com estruturas
+              de TI amadoras e chegam a um ponto de inflexão onde os sócios se sentem sobrecarregados. Implementamos as
+              melhores ferramentas corporativas do mercado adaptadas à escala e ao orçamento da sua operação.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       9. FINAL CTA SECTION (Fiel ao Screenshot 4 do Template Aura)
+       ========================================================================== -->
+  <section class="final-cta-section" id="contato">
+    <div class="container final-cta-content">
+      <h2 class="final-cta-title">O seu escritório não pode ficar refém de tecnologia instável.</h2>
+      <p class="final-cta-desc">
+        Não espere um incidente de segurança, perda de prazos ou uma falha de sistema comprometer sua reputação com os
+        clientes. Converse agora com nossos consultores seniores.
+      </p>
+
+      <div class="final-cta-buttons">
+        <a href="tel:+551140038921" class="btn-cta-gold" id="finalCallBtn">
+          <i class="ri-phone-fill"></i>
+          <span>Ligue: (11) 4003-8921</span>
+        </a>
+        <button class="btn-cta-outline" data-open-modal id="finalFormBtn">
+          <i class="ri-survey-line"></i>
+          <span>Preencher Diagnóstico Gratuito</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       10. FOOTER (Fiel ao Screenshot 4 do Template Aura)
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Coluna 1: Marca & Propósito -->
+        <div class="footer-brand">
+          <a href="#inicio" class="brand-logo">
+            <div class="logo-icon-box">
+              <i class="ri-shield-keyhole-line"></i>
+            </div>
+            <div class="brand-text">
+              <span class="brand-name">TMD Studio</span>
+              <span class="brand-sub">Tecnologia para Escritórios</span>
+            </div>
+          </a>
+          <p class="footer-brand-desc">
+            Consultoria de tecnologia e modernização estratégica exclusiva para escritórios de serviços profissionais de
+            alto padrão. Eficiência operacional, conformidade e governança.
+          </p>
+          <div class="footer-social-links">
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-btn"
+              aria-label="LinkedIn">
+              <i class="ri-linkedin-fill"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-btn"
+              aria-label="Instagram">
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a href="mailto:contato@verticeti.com.br" class="social-btn" aria-label="Email Corporativo">
+              <i class="ri-mail-line"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Coluna 2: Contato Corporativo (Screenshot 4) -->
+        <div class="footer-col">
+          <h4>Contato</h4>
+          <ul class="footer-contact-list">
+            <li class="footer-contact-item">
+              <i class="ri-map-pin-2-fill"></i>
+              <span>Av. Cel. Travassos, 1370 - Centro Histórico, Novo Hamburgo - RS</span>
+            </li>
+            <li class="footer-contact-item">
+              <i class="ri-phone-fill"></i>
+              <span>+55 (11) 4003-8921</span>
+            </li>
+            <li class="footer-contact-item">
+              <i class="ri-mail-fill"></i>
+              <span>contato@tmdstudios.com.br</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Coluna 3: Links Rápidos & Governança (Screenshot 4) -->
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul class="footer-links-list">
+            <li><a href="#inicio">Página Inicial</a></li>
+            <li><a href="#sobre">Nossa Abordagem Executiva</a></li>
+            <li><a href="#solucoes">Pilares de Soluções</a></li>
+            <li><a href="#metodo">Metodologia em 4 Passos</a></li>
+            <li><a href="#depoimentos">Cases de Sucesso</a></li>
+            <li><a href="#faq">Perguntas Frequentes</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Barra Inferior de Direitos & LGPD -->
+      <div class="footer-bottom">
+        <div>
+          © 2026 TMD Studio – Consultoria Tecnológica Estratégica. Todos os direitos reservados.
+        </div>
+        <div class="footer-bottom-badge">
+          <i class="ri-shield-check-fill"></i>
+          <span>Em conformidade estrita com a LGPD (Lei nº 13.709/2018)</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       MODAL DE DIAGNÓSTICO ESTRATÉGICO RÁPIDO
+       ========================================================================== -->
+  <div class="modal-overlay" id="bookingModal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Fechar modal">
+        <i class="ri-close-line"></i>
+      </button>
+
+      <div class="form-header">
+        <span class="section-tag" style="margin-bottom: 6px;">Agendamento de Diagnóstico</span>
+        <h3 class="form-title">Avaliação Técnica Gratuita</h3>
+        <p class="form-subtitle">Preencha os dados abaixo para receber uma análise preliminar da infraestrutura do seu
+          escritório.</p>
+      </div>
+
+      <form class="lead-form" id="modalLeadForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="modalName">Seu Nome</label>
+            <input type="text" id="modalName" class="form-control" placeholder="Dr(a). Nome" required>
+          </div>
+          <div class="form-group">
+            <label for="modalPhone">WhatsApp</label>
+            <input type="tel" id="modalPhone" class="form-control" placeholder="(11) 98765-4321" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="modalEmail">E-mail Corporativo</label>
+          <input type="email" id="modalEmail" class="form-control" placeholder="socio@seuescritorio.com.br" required>
+        </div>
+
+        <div class="form-group">
+          <label for="modalSegment">Tipo de Escritório</label>
+          <select id="modalSegment" class="form-control" required>
+            <option value="" disabled selected>Selecione o segmento</option>
+            <option value="advocacia">Escritório de Advocacia</option>
+            <option value="contabilidade">Escritório Contábil</option>
+            <option value="consultoria">Consultoria e Gestão</option>
+            <option value="outro">Outro segmento</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="modalNotes">Principal prioridade atual</label>
+          <textarea id="modalNotes" class="form-control" rows="2"
+            placeholder="Ex: eliminar lentidão, fazer backup na nuvem, automatizar rotinas..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn-submit-hero">
+          <span>Confirmar Agendamento</span>
+          <i class="ri-arrow-right-line"></i>
+        </button>
+
+        <div class="form-security-note">
+          <i class="ri-lock-2-line"></i>
+          <span>Privacidade total garantida por contrato e LGPD.</span>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Botão Flutuante do WhatsApp -->
+  <a href="https://wa.me/551140038921?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20diagn%C3%B3stico%20de%20TI%20estrat%C3%A9gico%20para%20o%20meu%20escrit%C3%B3rio."
+    target="_blank" rel="noopener noreferrer" class="whatsapp-float-btn"
+    aria-label="Falar no WhatsApp com um consultor">
+    <i class="ri-whatsapp-line"></i>
+  </a>
+
+  <!-- Script JS -->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
